@@ -18,7 +18,7 @@ Test form
 
 *** Keywords ***
 Setup Actions
-    New Browser    ${BROWSER}    headless=false    channel=msedge
+    New Browser    ${BROWSER}    headless=No    channel=msedge
     New Page    ${LOGIN URL}
 
 Teardown Actions
